@@ -1,0 +1,9 @@
+{
+    "name": "YoutubeUnBloker",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts":[{
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["script.js"]
+    }]
+}
