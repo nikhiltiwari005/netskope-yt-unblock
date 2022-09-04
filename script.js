@@ -12,4 +12,4 @@ var handler = (i) => {
     }
 }
 
-['load', 'scroll'].forEach( e => window.addEventListener(e, ch))
+['load', 'mousemove'].forEach( e => window.addEventListener(e, ch))
