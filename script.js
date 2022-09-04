@@ -6,7 +6,7 @@ var ch = () => {
 var handler = (i) => {
     try {
         if(i.href.indexOf('youtube.com') < 1) return;
-        i.href = i.href = 'https://www.youtube-nocookie.com/embed/' + i.href.split('=')[1]
+        i.href = i.href = 'https://www.youtube-nocookie.com/embed/' + i.href.split('=')[1] + '?autoplay=1'
     } catch (e) {
         console.error(e)
     }
